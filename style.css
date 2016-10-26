@@ -68,3 +68,27 @@ h3{
   color: #5D6466;
 }
 
+#sidebar{
+  position: fixed;
+  width: 150px;
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, white , #AECAD4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, white ,  #AECAD4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+}
+
+#sidebar ul{
+  padding: 30px;
+
+}
+
+#sidebar li{
+  list-style-type: none;
+  color: black;
+  padding: 20px;
+  font-size: 25px;
+}
+
+#sidebar i{
+  color: black;
+}
